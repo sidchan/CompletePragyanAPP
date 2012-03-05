@@ -1,0 +1,80 @@
+<pragyan>
+	<type name="events">
+		<name>Bytecode</name>
+		<imageurl>http://www.pragyan.org/11/cms/templates/trinity/images/events/byte code.png</imageurl>
+		<des>Is code crunching your cup of tea?Seems easy? Not when you have the best brains in the world competing with you, racing against the clock to try and win over our online tester with their compact and efficient codes. For those of you looking for a worldwide exposure of your talents, Pragyan'11 sets the stage for you. Fight it out against competitors from over 60 different countries, and try to wrest the mantle of Top Coder. Byte the code or bite the dust.</des>
+	</type>
+	<type name="events">
+		<name>Digital Fortress</name>
+		<imageurl>http://www.pragyan.org/11/cms/uploads/iconman/0000000702_innovation.png</imageurl>
+		<des>Digital Fortress is back again. This time it is bigger and better. Not only have we increased the cash prize but also the excitement associated with breaking the walls. Traditionally, this was played by cracking few levels in least possible time (hackthissite.org type). This time, it will be more real, more exciting, more thrilling and live. We give you the chance to attack other teams, patch up your own system so that you don't get attack, find vulnerabilities in the networking applications, and do whatever to keep your server alive – live in real time. Engage yourself to hack vulnerable websites, find security loop holes, attack your opponents, submit advisories in an international CTF (Capture the Flag) like hacking competition, one of the rarest in the country.
+
+Turn up your Data Assassin. Let the Hacker in you surface as you're faced with innumerable problems that require you to procure classified information from varied sources, attack different servers, secure your own. It is not just hacking, it is live and real hacking. Pit your brains against competitors from across the globe to find out if you can measure up to the challenge!</des>
+	</type>
+	<type name="events">
+		<name>Crack The Shell</name>
+		<imageurl>http://www.pragyan.org/11/cms/templates/trinity/images/events/openit.png</imageurl>
+		<des>Are you a FOSS enthusiast?
+
+Do you love the terminal?
+ 
+This event is just for you!
+ 
+Then this is just the event for you. Probably you should be knowing about the Shell, yes you will be. For those without a clue, let's simply say Shell is where all those Linux Commands are typed out.
+ 
+The Shell is powerful. Powerful enough to do anything. But then, how should 'anything' be defined?
+ 
+'Crack the Shell' is all about solving simple day to day tasks on your computer through the terminal.</des>
+	</type>
+	<type name="events">
+		<name>Treasure Hunt</name>
+		<imageurl>http://www.pragyan.org/11/cms/uploads/iconman/0000000720_treasure_hunt.png</imageurl>
+		<des>The stage is set.
+
+Maze is virtual.
+ 
+You have the most dangerous weapon. The TERMINAL.
+ 
+An event for the adventurous and the curious.
+ 
+Explore the surroundings, hack into the network, break the clues and voila you are there.
+ 
+A challenge for you to prove your linux skills.</des>
+	</type>
+	<type name="events">
+		<name>Dalal Street</name>
+		<imageurl>http://www.pragyan.org/11/cms/uploads/iconman/0000000717_stock.png</imageurl>
+		<des>Dalal Street is a virtual stock trading game. As opposed to conventional stock picking games, Dalal Street actually allows the players to trade among themselves. Trading is facilitated by an electronic exchange running from our servers. The player accumulating maximum wealth by trading will be crowned the winner.</des>
+	</type>
+	<type name="workshop">
+		<name>Haptic Robotic Arm</name>
+		<imageurl>http://www.pragyan.org/11/cms/templates/trinity/images/events/codin.png</imageurl>
+		<des>Technophilia and IIT Kanpur's Techkriti 2010 Introduces the first and the only Robotics Workshop in India based on "HAPTICS".
+
+Haptics is the science of applying touch sensation and control for interaction with virtual or physical applications. In combination with a visual display, haptics technology can be used to train people for tasks requiring hand-eye coordination, such as Robotic Tele Surgery and Space-ship maneuvering. It can also be used for games in which you feel as well as see your interactions with images.
+
+The Dextrous Hand (from the NASA’s collection of Humanoids) has haptic sensors embedded in every joint and in every finger pad which relay information to a central computer for processing and analysis. In this workshop we train the students to control a Robotic Arm using Haptics Technology Haptic Glove).</des>
+	</type>
+	<type name="workshop">
+		<name>RC Aircraft Design</name>
+		<imageurl>http://www.pragyan.org/11/cms/uploads/iconman/0000000712_rob.png</imageurl>
+		<des>At the dawn of the twentieth century, having explored and conquered all land, man turned his eyes skywards. For much of history he has been trying to conquer this seemingly unbeatable foe. The skies continued to elude him until finally, the Wright brothers finally conquered the skies one windy morning in the winter of 1903. Since then the aircraft industry has exploded, and aeroplanes have captured the imagination of the human race.
+
+Workshops at Pragyan '11 gives participants an opportunity to to conquer the sky on their own terms, as this workshop conducted by AerotriX allows them to design, fabricate and see their aircraft fly.</des>
+	</type>
+	<type name="guest lecture">
+		<name>David Hanson</name>
+		<imageurl>http://www.pragyan.org/11/home/guest_lectures/hanson.jpg</imageurl>
+		<des>Mastermind behind the development of humanoid robots.</des>
+	</type>
+	<type name="guest lecture">
+		<name>Sugata Mitra</name>
+		<imageurl>http://www.pragyan.org/11/home/guest_lectures/sugata_mitra.jpg</imageurl>
+		<des>Academician behind the Oscar winning film, Slumdog Millionaire</des>
+	</type>
+	<type name="guest lecture">
+		<name>R V Guha</name>
+		<imageurl>http://www.pragyan.org/11/home/guest_lectures/rv_guha.gif</imageurl>
+		<des>Google fellow, Creator of Custom Search, RSS feeds, MCF, Google SMS channels</des>
+	</type>
+</pragyan>

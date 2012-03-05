@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:fillViewport="true">
+<LinearLayout
+
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <ImageView android:layout_width="match_parent"
+  android:layout_height="75dp"
+  
+  android:maxHeight="75dp"
+  android:scaleType="fitXY"
+  android:layout_gravity="top"
+  android:src="@drawable/splash_logo"/>
+  
+  <LinearLayout 
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/clock_lay"
+  android:gravity="center_horizontal">
+  
+  
+  <FrameLayout
+  android:visibility="visible"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView 
+  android:text="150"
+  android:id="@+id/days_count_view"
+  style="@style/Theme.Clock">
+  </TextView>
+  <TextView
+  android:text="DAYS"
+  style="@style/Theme.ClockLabel">
+  </TextView>
+  </FrameLayout>
+  <FrameLayout
+  android:visibility="visible"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView 
+  android:id="@+id/hr_count_view"
+  android:text="24"
+  style="@style/Theme.Clock">
+  </TextView>
+  <TextView
+  android:text="HOURS"
+  style="@style/Theme.ClockLabel">
+  </TextView>
+  </FrameLayout>
+
+  <FrameLayout
+  android:visibility="visible"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView 
+  android:id="@+id/min_count_view"
+  android:text="59"
+  style="@style/Theme.Clock">
+  </TextView>  
+  <TextView
+  android:text="MINS"
+  style="@style/Theme.ClockLabel">
+  </TextView>
+  </FrameLayout>
+  
+  <FrameLayout
+  android:visibility="visible"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView 
+  android:id="@+id/sec_count_view"
+  android:text="59"
+  style="@style/Theme.Clock">
+  </TextView>
+  <TextView
+  android:text="SECS"
+  style="@style/Theme.ClockLabel">
+  </TextView>
+  </FrameLayout>
+  </LinearLayout>
+  
+  
+  <FrameLayout
+  
+  android:id="@+id/menuLayout"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_weight="1"
+  android:layout_gravity="center"
+  >
+  	<RelativeLayout
+  	android:id="@+id/menuAbsLayout"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center">
+  	<ImageView android:id="@+id/top_btn" 
+  	android:layout_alignParentLeft="true" 
+  	android:layout_alignParentTop="true" 
+  	android:src="@drawable/top_btn" 
+  	android:scaleType="fitXY" 
+  	android:layout_width="50dp" 
+  	android:layout_x="110dp" 
+  	android:layout_y="0dp" 
+  	android:layout_height="120dp" 
+  	android:layout_marginLeft="110dp"></ImageView>
+  	<ImageView android:id="@+id/bottom_btn" android:src="@drawable/bottom_btn" android:scaleType="fitXY" android:layout_width="50dp" android:layout_x="160dp" android:layout_y="120dp" android:layout_height="120dp" android:layout_alignTop="@+id/pivotImg" android:layout_marginTop="50dp" android:layout_alignLeft="@+id/pivotImg"></ImageView>
+  	<ImageView android:id="@+id/pivotImg" android:src="@drawable/right_btn" android:layout_height="50dp" android:scaleType="fitXY" android:layout_width="120dp" android:layout_marginTop="70dp" android:layout_toRightOf="@+id/top_btn" android:layout_alignParentTop="true"></ImageView>
+  	<ImageView android:src="@drawable/left_btn" android:layout_width="120dp" android:scaleType="fitXY" android:layout_height="50dp" android:id="@+id/left_btn" android:layout_below="@+id/top_btn" android:layout_alignRight="@+id/top_btn"></ImageView>
+  	
+  	</RelativeLayout>
+  </FrameLayout>
+  
+  
+  <ImageView 
+  android:id="@+id/idi"
+  android:layout_width="match_parent"
+  android:layout_height="60px"
+  android:maxHeight="60px"
+  android:scaleType="fitXY"
+  android:adjustViewBounds="false"
+  android:gravity="bottom"
+  />
+</LinearLayout>
+</ScrollView>
